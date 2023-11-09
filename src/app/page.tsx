@@ -11,9 +11,9 @@ export default function Home() {
     <Provider>
       <Header />
 
-      <div className="flex justify-center items-center gap-1 max-sm:flex-col max-sm:items-center">
-        <p className="text-slate-300 max-sm:text-center max-sm:text-xs">
-          <BsInfoCircle className="text-slate-300" />
+      <div className="flex justify-center items-center gap-1">
+        <p className="text-slate-300 flex items-center gap-2 max-md:text-xs max-md:flex max-md:flex-col max-md:items-center">
+          <BsInfoCircle className="text-slate-300 text-center" />
           Selecione duas cartas de heróis para começar o combate!
         </p>
       </div>
