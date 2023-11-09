@@ -11,12 +11,14 @@ export default function Home() {
     <Provider>
       <Header />
 
-      <div className="flex justify-center items-center gap-1">
-        <BsInfoCircle className="text-slate-300" />
-        <span className="text-slate-300">Selecione duas cartas de heróis para começar o combate!</span>
+      <div className="flex justify-center items-center gap-1 max-sm:flex-col max-sm:items-center">
+        <p className="text-slate-300 max-sm:text-center max-sm:text-xs">
+          <BsInfoCircle className="text-slate-300" />
+          Selecione duas cartas de heróis para começar o combate!
+        </p>
       </div>
 
-      <div className="flex justify-center items-center pt-5 pb-0 gap-5">
+      <div className="flex justify-center items-center pt-5 pb-0 gap-5 max-sm:flex-col">
         <HeroBattleModal />
         <ButtonTypes color="primary" variant="shadow">
           Limpar Seleção
